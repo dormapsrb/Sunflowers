@@ -76,7 +76,7 @@ private fun GalleryScreen(
     ) { padding ->
         val pagingItems: LazyPagingItems<UnsplashPhoto> = plantPictures.collectAsLazyPagingItems()
         LazyVerticalGrid(
-            columns = GridCells.Fixed(2),
+            columns = GridCells.Fixed(3),
             modifier = Modifier.padding(padding),
             contentPadding = PaddingValues(all = dimensionResource(id = R.dimen.card_side_margin))
         ) {
